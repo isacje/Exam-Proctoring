@@ -1,7 +1,9 @@
 from django.urls import path,include
 from django.contrib import admin
 from exam import views
-from django.contrib.auth.views import LogoutView,LoginView
+from django.contrib.auth.views import LogoutView,LoginView    
+from . import settings
+from django.conf.urls.static import static
 urlpatterns = [
    
     path('admin/', admin.site.urls),
@@ -49,4 +51,4 @@ urlpatterns = [
     path('delete-question/<int:pk>', views.delete_question_view,name='delete-question'),
 
 
-]
+] 
