@@ -27,9 +27,3 @@ This project is a fully functional Online Examination System developed using the
 * Frontend: HTML, CSS, Bootstrap
 * Database: SQLite
 
-## How to Run the Project
-* Clone the repository.
-* Set up a virtual environment.
-* Install the required dependencies using pip install -r requirements.txt.
-* Apply migrations using python manage.py migrate.
-* Run the server with python manage.py runserver.
